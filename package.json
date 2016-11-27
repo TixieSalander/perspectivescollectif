@@ -1,0 +1,14 @@
+{
+  "name": "perspectivescollectif",
+  "version": "0.0.1",
+  "devDependencies": {
+    "bower": "latest",
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-csscomb": "latest",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-uglify": "latest",
+    "gulp-less": "latest"
+  }
+}

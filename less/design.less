@@ -1,0 +1,115 @@
+@import "reset";
+
+/* ----------------------------------------------------------- */
+/* == Variables */
+/* ----------------------------------------------------------- */
+
+@container: 120rem;
+/* Colors
+-------------------------------------------------------------- */
+
+@color-primary: #352639;
+
+@color-light-text: #fff;
+
+/* ----------------------------------------------------------- */
+/* == Base */
+/* ----------------------------------------------------------- */
+html {
+	font-size: 62.5%;
+	/* IE9-11 calculation fix */
+	font-size: calc(.625em);
+}
+body {
+	background-color: @color-primary;
+	color: @color-light-text;
+	font-size: 1.4em;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+/* ----------------------------------------------------------- */
+/* == Content */
+/* ----------------------------------------------------------- */
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+/* Logo
+-------------------------------------------------------------- */
+
+.logo {
+	display: flex;
+	align-items: center;
+	flex: 1;
+	width: auto;
+}
+
+.logo__image {
+	margin: 4rem 2rem;
+	height: 25rem;
+	animation: animlogo 2s 1;
+}
+
+/* Member list
+-------------------------------------------------------------- */
+
+.member {
+	text-align: center;
+}
+
+.member__list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 4rem;
+	max-width: @container;
+}
+
+.member__item {
+	margin: 0;
+	padding: 0;
+}
+
+.member__link {
+	display: inline-block;
+	padding: 3rem 4rem;
+	font-size: 1.8rem;
+}
+
+.member__link:link,
+.member__link:visited {
+	color: @color-light-text;
+	text-decoration: none;
+}
+
+.member__link:hover,
+.member__link:active {
+	text-decoration: underline;
+}
+
+/* ----------------------------------------------------------- */
+/* == Animations */
+/* ----------------------------------------------------------- */
+
+
+@keyframes animlogo {
+	from {
+		opacity: 0;
+	}
+
+	75% {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+@import "rwd";
