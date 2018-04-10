@@ -1,6 +1,9 @@
 {
   "name": "perspectivescollectif",
   "version": "0.0.1",
+  "scripts": {
+    "gulp": "gulp"
+  },
   "devDependencies": {
     "bower": "latest",
     "browser-sync": "latest",
