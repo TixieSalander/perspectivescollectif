@@ -5,10 +5,7 @@
 .bash_history
 node_modules/
 
-demo
-public/css/
-public/img/
-public/js/
+dist
 
 # OS
 .DS_Store

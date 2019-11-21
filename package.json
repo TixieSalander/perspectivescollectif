@@ -1,17 +1,12 @@
 {
   "name": "perspectivescollectif",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
-    "gulp": "gulp"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "devDependencies": {
-    "bower": "latest",
-    "browser-sync": "latest",
-    "gulp": "latest",
-    "gulp-autoprefixer": "latest",
-    "gulp-csscomb": "latest",
-    "gulp-imagemin": "^3.0.1",
-    "gulp-uglify": "latest",
-    "gulp-less": "latest"
+    "less": "^3.10.3",
+    "parcel-bundler": "^1.12.4"
   }
 }
